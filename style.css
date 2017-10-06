@@ -1,0 +1,16 @@
+*{margin:0; padding: 0; outline:0;}
+body{font-family: verdana; font-size: 18px; color: darkolivegreen}
+.wrapper{ width: 780px; margin: 0 auto;}
+.clr{overflow: hidden;}
+.headsection,.footsection{background:#dddddd; padding: 8px;text-align: center;}
+.headsection h2,.footsection h2{}
+.content{border: 15px solid #dddddd; min-height: 480px;}
+.box{border: 5px solid #999999; margin: 0px auto 0; padding: 20px; width: 700px; height: 230px;overflow: scroll;}
+.box ul{margin: 0; padding: 0; list-style: none;}
+.box ul li{display: block; border-bottom: 1px dashed #dddddd; margin-bottom: 5px; padding-bottom: 5px;}
+.box ul li:last-child{ border-bottom:0px dashed #dddddd; margin-bottom: 0;padding-bottom: 0px;}
+.box span{color: #888888}
+.shoutform{border: 5px solid #999999; margin: 0px auto 0px; padding: 20px; width: 700px;}
+input[type="text"]{padding: 5px; width: 500px; margin-bottom: 22px;}
+input[type="submit"]{background: #666666; border: 1px solid #444444; color:#ffffff; cursor: pointer; font-size: 25px;
+padding: 5px 20px;}
